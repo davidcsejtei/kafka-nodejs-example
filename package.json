@@ -1,0 +1,16 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "consumer.js",
+  "scripts": {
+    "start:producer": "export KAFKAJS_NO_PARTITIONER_WARNING=1 && node --no-warnings producer.js",
+    "start:consumer": "export KAFKAJS_NO_PARTITIONER_WARNING=1 && node --no-warnings consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
